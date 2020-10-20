@@ -1,3 +1,25 @@
+# New normalized mapping
+#
+# gad - git add
+# gbr - git branch
+# gcg - git config
+# gch - git checkout
+# gcl - git clone
+# gct - git commit
+# gdi - git diff
+# gin - git init
+# glo - git log
+# gme - git merge
+# gph - git push
+# gpl - git pull
+# gre - git remote
+# grm - git rm
+# grt - git reset
+# gsw - git show
+# gsh - git stash
+# gss - git status
+# gta - git tag
+ 
 # Git version checking
 autoload -Uz is-at-least
 git_version="${${(As: :)$(git version 2>/dev/null)}[3]}"
